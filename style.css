@@ -1,0 +1,80 @@
+body {
+  background-color: #f2ebe3 !important;
+}
+
+h3,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+h2 {
+  color: #3c8067 !important;
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter !important;
+  color: grey;
+}
+
+h6,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter !important;
+  color: gray;
+}
+
+h6 {
+  font-size: x-small;
+  letter-spacing: 4px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container {
+  border: 0.5px solid white;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  width: 500px;
+  margin-top: 15%;
+  align-items: center;
+}
+
+.img-top {
+  width: 50%;
+  object-fit: cover;
+  margin-left: -12px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.body {
+  padding: 20px;
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.title-judul {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: small;
+  margin-left: 15px;
+}
